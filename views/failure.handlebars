@@ -1,3 +1,61 @@
-  <div>
-      <h1 style="text-align: center; padding-top: 10%; color:red">Failure Payment</h1>
-  </div> 
+<div style="color: red; text-align:center; margin-top: 10%">Fail :(</div>
+
+<style>
+	table {
+		margin:auto;
+		font-family: arial, sans-serif;
+		border-collapse: collapse;
+		width: 50%;
+		text-align: center;
+	}
+
+	td,
+	th {
+		border: 1px solid #dddddd;
+		text-align: left;
+		padding: 8px;
+	}
+
+	tr:nth-child(even) {
+		background-color: #dddddd;
+	}
+</style>
+
+<table>
+	<tr>
+		<td>Collection Id</td>
+		<td>{{collection_id}}</td>
+	</tr>
+	<tr>
+		<td>Collection status</td>
+		<td>{{collection_status}}</td>
+	</tr>
+	<tr>
+		<td>External reference</td>
+		<td>{{external_reference}}</td>
+	</tr>
+	<tr>
+		<td>Payment ID</td>
+		<td>{{payment_id}}</td>
+	</tr>
+	<tr>
+		<td>Preference ID</td>
+		<td>{{preference_id}}</td>
+	</tr>
+	<tr>
+		<td>Payment Type</td>
+		<td>{{payment_type}}</td>
+	</tr>
+	<tr>
+		<td>Site ID</td>
+		<td>{{site_id}}</td>
+	</tr>
+	<tr>
+		<td>Processing mode</td>
+		<td>{{processing_mode}}</td>
+	</tr>
+	<tr>
+		<td>Merchant account</td>
+		<td>{{merchant_account_id}}</td>
+	</tr>
+</table>
