@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 var port = process.env.PORT || 3000
 var app = express();
 
-const host = "http://127.0.0.1:3000";
+const host = "https://stevenossa-mp-commerce-nodejs.herokuapp.com";
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 
