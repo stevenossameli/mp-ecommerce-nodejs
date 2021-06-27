@@ -106,7 +106,7 @@ function getPreference(req) {
         },
         payment_methods: paymentMethod,
         payer: payer,
-        // notification_url: host + "/webhook",
+        notification_url: host + "/webhook",
         external_reference: 'steven.ossaserna@mercadolibre.com.co',
         integrator_id: 'dev_24c65fb163bf11ea96500242ac130004',
         auto_return: 'approved',
